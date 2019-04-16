@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, p, body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: bottom;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+      
+a {
+	text-decoration: none;
+}
+      
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+      
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------------------------*/
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.font-dosis {
+  font-family: 'Dosis', sans-serif;
+}
+
+.wrapper-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.contents-login {
+  font-weight: 400;
+  padding: 20px 30px 50px;
+  box-shadow: 0px 4px 10px rgba(189, 189, 189, 0.685);
+  border-radius: 20px;
+}
+
+.start-btn {
+  display:block;
+  width: 300px;
+  
+  font-size: 20px;
+  text-align: center;
+  padding: 6px 20px;
+  border: 2px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 50px; 
+  margin: 20px auto;
+  transition: 0.2s all;
+}
+
+.start-btn:hover {
+  border: 2px solid #1da0f23a;
+  cursor: pointer;
+}
+
+.start-btn.blue-btn {
+  background-color: #1da1f2;
+  color:white;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.start-btn.blue-btn:hover {
+  background-color: #1da0f23a;
+  border: 2px solid rgba(255, 255, 255, 0);
+  color: #1da1f2;
+}
+

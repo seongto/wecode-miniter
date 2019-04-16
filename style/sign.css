@@ -1,0 +1,38 @@
+
+.title-login {
+  text-align:center;
+  margin: 20px auto;
+  font-weight: 800;
+}
+
+.my-input {
+  font-weight: 500;
+  display:block;
+  margin: 20px auto 0;
+  padding : 8px 16px;
+
+  width: 300px;
+  background-color: #f6f6f6;
+  border-style: none;
+  border-bottom: 2px solid #1da1f2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+.signup p {
+  font-size: 12px;
+  width: 300px;
+  color: red;
+  text-align: center;
+}
+
+.my-input::placeholder {
+  color:#c1c1c1;
+}
+
+button {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}

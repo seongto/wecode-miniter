@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <title>Tweets</title>
+
+  <link rel="stylesheet" href="./style/common.css" type="text/css">
+  <link rel="stylesheet" href="./style/tweets.css" type="text/css">
+</head>
+<body class="tweets-page">
+  <div class="wrapper">
+    <div class="page-left">
+      <div class="profile">
+        <h3 class="font-dosis" id="profile-name">Tony Stark</h3>
+        <ul id="profile-list">
+          <li>
+            <p class="font-dosis">tweets</p>
+            <p class="font-dosis" id="total-tweets">0</span>
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <ul id="banner">
+        <li>
+          <p>Ad space 01</p>
+        </li>
+        <li>
+          <p>Ad space 02</p>
+        </li>
+        <li>
+          <p>Ad space 03</p>
+        </li>
+      </ul>
+    </div>
+    <div class="page-right">
+      <textarea name="post" maxlength="200" type="text" placeholder="What's happening?" id="post-write"></textarea>
+      <ul class="btn-sort">
+        <li>
+          <div id="sort-my">My</div>
+        </li>
+        <li>
+          <div id="sort-all">All</div>
+        </li>
+        <li>
+          <div class="font-dosis" id="post-submit">TWEET</div>
+        </li>
+      </ul>
+      <ul id="list-post">
+
+      </ul>
+    </div>
+  </div>
+  <script src="./js/tweets.js"></script>
+</body>
+</html>
